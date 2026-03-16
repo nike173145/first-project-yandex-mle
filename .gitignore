@@ -54,6 +54,7 @@ data/
 datasets/
 models/
 artifacts/
+catboost_info/
 
 # ======================
 # DVC

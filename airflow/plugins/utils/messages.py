@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 from airflow.providers.telegram.hooks.telegram import TelegramHook
 
-load_dotenv()
+load_dotenv("/home/nikita/projects/first-project-yandex-mle/.env")
 
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
